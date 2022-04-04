@@ -1,0 +1,74 @@
+.unauth-box {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.unauth-image {
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+
+.unauth-heading {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 36px;
+    padding: 0;
+    color: #fff;
+}
+
+.unauth-input {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 21px 10px;
+    color: rgba(0, 0, 0, 0.6);
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.unauth-button {
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    padding: 18px;
+    color: #fff;
+    background-color: red;
+    border-radius: 76px;
+    border: none;
+    cursor: pointer;
+}
+
+.unauth-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unauth-link {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    width: 100%;
+}
+
+.stack {
+    margin-bottom: 20px;
+}

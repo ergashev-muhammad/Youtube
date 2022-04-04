@@ -1,0 +1,147 @@
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar::after {
+    content: url(../Assets/Images/Black.png);
+    margin-left: 28px;
+}
+
+.menu-bars {
+    margin-left: 20px;
+    font-size: 20px;
+    background: none;
+}
+
+.nav-menu {
+    background-color: transparent;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    font-family: 'Mulish', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px;
+    list-style-type: none;
+    color: rgb(136, 136, 136);
+}
+
+.nav-text:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.nav-text:nth-child(11) {
+    margin-bottom: 58px;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover {
+    background-color: white;
+}
+
+.nav-menu-items {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.nav-menu-title {
+    font-family: 'Mulish', 'sans-serif';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    padding: 0;
+    color: white;
+}
+
+.nav-menu-link__sub {
+    font-family: 'Mulish', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(136, 136, 136);
+}
+
+.nav-menu-link__sub--1::before {
+    content: url(../Assets/Images/Oval10.png);
+}
+
+.nav-menu-link__sub--2::before {
+    content: url(../Assets/Images/Oval9.png);
+}
+
+.nav-menu-link__sub--3::before {
+    content: url(../Assets/Images/Oval8.png);
+}
+
+.nav-menu-link__sub--4::before {
+    content: url(../Assets/Images/Oval7.png);
+}
+
+.nav-menu-link__sub--5::before {
+    content: url(../Assets/Images/Oval6.png);
+}
+
+.nav-menu-link__sub--6::before {
+    content: url(../Assets/Images/Oval5.png);
+}
+
+.nav-menu-span-settings {
+    display: inline-block;
+    margin-top: 160px;
+    margin-right: 115px;
+}
+
+.nav-menu-span-settings::before {
+    display: inline-block;
+    content: url(../Assets/Images/setting.png);
+    transform: translateY(10%);
+    margin-right: 8px;
+}
+
+span {
+    margin-left: 16px;
+}
+
+span:hover {
+    color: rgb(136, 136, 136);
+}
